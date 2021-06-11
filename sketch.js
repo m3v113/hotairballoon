@@ -29,6 +29,8 @@ function setup() {
 // function to display UI
 function draw() {
   background(bg);
+   
+   if (height !== null) 
 
   if(keyDown(LEFT_ARROW)){
     updateHeight(-10,0);
